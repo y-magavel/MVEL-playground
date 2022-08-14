@@ -7,3 +7,5 @@ services:
     tty: true
     volumes:
       - ./src:/usr/src:cached
+    environment:
+      CLASSPATH: "/usr/src/:/usr/src/lib/mvel2-2.4.14.Final.jar"
