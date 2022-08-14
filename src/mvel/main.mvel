@@ -1,6 +1,6 @@
 // これはMVELのソースコードです。
 
-// 関数定義
+// HelloWorldを出力するシンプルな関数を定義
 def sayHello() {
   place = "from MVEL";
   System.out.println("Hello World! " + place);
@@ -8,5 +8,3 @@ def sayHello() {
 
 // 関数の呼び出し
 sayHello();
-
-
